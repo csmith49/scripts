@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+bs4 = "^0.0.2"
+click = "^8.1.7"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+arxiv = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
